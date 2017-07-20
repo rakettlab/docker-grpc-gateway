@@ -34,11 +34,8 @@ ENV EXTERNAL_PROTOBUFFER_DIRECTORY ''
 ENV GRPC_GATEWAY_CONF '/opt/generator/config/config.json'
 ENV GATEWAY_HOST ''
 ENV GATEWAY_PORT 8080
-ENV GRPC_PACKAGE 'packageName'
 ENV GRPC_BACKEND_HOST 'example.com'
 ENV GRPC_BACKEND_PORT 5555
-ENV GRPC_SERVICE 'ExampleService'
-ENV GRPC_SERVICE_PATH 'servicePath'
 ENV PROTOBUFFER_DIR '/opt/generator/protos/'
 
 ADD start.sh /root/start.sh
